@@ -40,12 +40,12 @@ body{
     border-radius: 6px;
 }
 
-/* .navlist ul li a:hover{
+.navlist ul li a:hover{
     border: none;
     transition: .4s ease;
     background-color: #594545;
     color: rgb(241, 235, 235);
-} */
+}
 
 .sidebar{
     padding: 6px 0;
@@ -280,7 +280,7 @@ body{
 }
 
 footer{
-    padding: 40px;
+    padding: 30px;
     border: none;
     width: 100%;
     justify-content: center;
@@ -290,9 +290,15 @@ footer{
     color: white;
 }
 
+
 .copyright span a{
     text-decoration: line-through;
     color: #b3b2b1;
+}
+.copyright p a{
+  text-decoration: line-through;
+  color: #b3b2b1;
+  place-self: center;
 }
 
 @media (min-width: 279px) {
@@ -349,6 +355,12 @@ footer{
 
 
 @media (min-width: 950px) {
+    .navlist ul li a:hover{
+        border: none;
+        transition: .4s ease;
+        background-color: inherit;
+        color: rgb(241, 235, 235);
+    }
 
     .nav-toggle-btn {display: none;}
 
